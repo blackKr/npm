@@ -1,0 +1,81 @@
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-button {
+  background-color: #FF7677;
+  display: none
+}
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.7)
+}
+::-webkit-scrollbar-thumb {
+  background:#717276; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-corner {
+  background: #82AFFF;
+  display: none
+}
+::-webkit-scrollbar-resizer {
+  background: #FF0BEE;
+}
+::scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::scrollbar-button {
+  background-color: #FF7677;
+  display: none
+}
+::scrollbar-track {
+  background: rgba(255, 255, 255, 0.7)
+}
+::scrollbar-thumb {
+  background: #aaa;
+  border-radius: 4px;
+}
+::scrollbar-corner {
+  background: #82AFFF;
+  display: none
+}
+::scrollbar-resizer {
+  background: #FF0BEE;
+}
+
+.forbidCopy {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.flexRowStart{
+  display: flex;
+}
+.flexColumnStart{
+  display: flex;
+  flex-direction: column;
+}
+.flexRowSpaceBetween{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flexRowCenter{
+  display: flex;
+  justify-content: center;
+}
+.flexRowEnd{
+  display: flex;
+  justify-content: flex-end;
+}
+.flexColumnSpaceBetween{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flexColumnCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

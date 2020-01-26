@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "strict": true,
+//    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "module": "commonjs",
+    "alwaysStrict": true,
+    "pretty": true,
+    "noImplicitReturns": true,
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "types": [
+      "node"
+    ],
+    "downlevelIteration": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src"
+  ]
+}
